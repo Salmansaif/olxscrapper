@@ -1,9 +1,9 @@
-Install dependencies:
-pip install requests
+**Install dependencies:**<br>
+pip install requests<br>
 pip install beautifulsoup4
 
-Commands:
+**Commands:**<br>
 python olx_scrape_csv_1.4.py -l karachi -c mobile-phones -f 1 -t 50
 
-OR alternatively use this:
+**OR alternatively use this:**<br>
 python olx_scrape_csv_1.4.py --location karachi --category mobile-phones --from_page 1 --till_page 100
